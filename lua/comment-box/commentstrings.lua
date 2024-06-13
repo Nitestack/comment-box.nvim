@@ -143,7 +143,10 @@ local function get_comment_strings(filetype)
     cs = rawget(languages, filetype)
   end
   if not cs then
-    return { "", "" }
+    return {
+      (vim.filetype.get_option(filetype, "commentstring") or ""):gsub("", ""),
+      "",
+    }
   else
     return cs
   end
