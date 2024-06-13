@@ -1,6 +1,6 @@
 <h1 align="center">comment-box.nvim</h1>
 
-**_Note_**: This is a fork of [`comment-box.nvim`](https://github.com/LudoPinelli/comment-box.nvim) to support Neovim 0.10+ because the maintainer doesn't seem to be active. With [`ts-comments.nvim`](https://github.com/folke/ts-comments.nvim), more languages are supported and even a comment string is provided.
+**_Note_**: This is a fork of [`comment-box.nvim`](https://github.com/LudoPinelli/comment-box.nvim) to support Neovim 0.10+ because the maintainer doesn't seem to be active. With [`ts-comments.nvim`](https://github.com/folke/ts-comments.nvim), more languages are supported.
 
 **_Announcement_**: This plugin has reached a stable state, but I'd like to add more features from your suggestions and from I had in mind. However, I started writing this plugin two years ago without any knowledge of _lua_ and the _Neovim_ api, not to mention a relatively short programming experience, which resulted in a rather messy code, hard to extend and maintain without making more mess. So I decided to rewrite it from the ground up, therefore I won't add any new feature until it's done (but will gladly fix any bug you may find of course).
 
